@@ -1,6 +1,7 @@
 ## jsynth-mic
 
-A simple Web Audio API module for accessing the getUserMedia audio stream from a mic/line-in.  Returns an emitting, which.on('node') passes yours listener a Web Audio Node.  See the example. Currently, the opinion of this module is to mix the mic to mono.
+A simple Web Audio API module for accessing the getUserMedia audio stream from a mic/line-in.  Returns an emitter, which.on('node') passes yours listener a Web Audio Node.  See the example. Currently, the opinion of this module is to mix the mic to mono.
+
 
 
 ```
